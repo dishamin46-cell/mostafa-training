@@ -58,10 +58,37 @@
       <!-- main nav right -->
       <div class="mainnav-right">
         <div class="mainnav-lang">
-          <img src="Egypt_flag_300.png" width="20px" height="15px"><span class="mainnav-en-lang">EN</span>
+          <div class="mainnav-lang-button">
+            <img src="Egypt_flag_300.png" width="20px" height="15px"><span class="mainnav-en-lang">EN</span>
+          </div>
           <span class="mainnav-right-button">&#9662</span>
           <!-- lang drobodown -->
-          <div></div>
+          <div class="favourite-lang">
+            <!-- overlay -->
+            <div class="dropdown-overlay"></div>
+            <!-- /overlay -->
+            <div class="favourite-lang-drobdown">
+              <form class="favourite-lang-content">
+                <fieldset class="favourite-lang-fieldset">
+                  <span class="favourite-lang-legend">change language</span><br>
+                   <input type="radio" name="language" value="arabic" id="arabic">
+                  <label for="arabic" class="favourite-lang-label">العربيه - AR</label><br>
+                  <hr class="favourite-lang-line">
+                 <input type="radio" name="language" value="english" id="english">
+                  <label for="english" class="favourite-lang-label">English - EN</label><br>
+                  <hr class="favourite-lang-line">
+                  <!-- shopping language -->
+                  <div class="favourite-lang-shopping">
+                  <img src="Egypt_flag_300.png" width="20px" height="15px">
+                  <span>you are shopping on <br>
+                  Amazon.eg</span>
+                  </div>
+                  <!-- /shopping language -->
+                   <div class="favourite-lang-country"><a href="#" class="favourite-lang-button">change country/region</a></div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
           <!-- /lang drobdowm -->
         </div>
         <div class="mainnav-signin">
