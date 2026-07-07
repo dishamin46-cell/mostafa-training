@@ -1,12 +1,26 @@
 body{
     margin: 0;
-    font-family:https://m.media-amazon.com/images/I/11WsGYSItxL._RC|01DE6WSvLKL.css,41ixaNR85ML.css,3182OVlP7IL.css,21JMC7OC91L.css,01xH+fhFIJL.css,0168Xo81wHL.css,413Vvv3GONL.css,1170nDgl0uL.css,01Rw4F+QU6L.css,11NeGmEx+fL.css,01LmAy9LJTL.css,01IdKcBuAdL.css,01iHqjS7YfL.css,01eVBHHaY+L.css,21D3IemrALL.css,11pDJV08stL.css,51yqRfvysvL.css,01HWrzt-WgL.css,01XPHJk60-L.css,11aX6hlPzjL.css,01GAxF7K5tL.css,01ZM-s8Z3xL.css,21gEzBqpmtL.css,11FeoxrgiyL.css,21TxBPhrLyL.css,01rSTIgNJIL.css,21Dt9D2TuML.css,31GD5I7tbCL.css,01i092IYHUL.css,01oaPOLX+-L.css,31Qk3MvcMIL.css,11PDZ29p-PL.css,11kbPm9N5xL.css,215WpAjwzoL.css,11sUwulETuL.css,114aTS6SjML.css,01xFKTPySiL.css,21GcfcmbahL.css,21OD8FuBraL.css,11XozyxiH7L.css,21n1oEPZnHL.css,11HVvPbE6JL.css,119Cktja74L.css,11PMguLK6gL.css,01890+Vwk8L.css,11TZSntL0oL.css,01qiwJ7qDfL.css,21AS3Iv3HQL.css,016mfgi+D2L.css,01VinDhK+DL.css,31un+UKeIeL.css,21msrr4h2yL.css,013-xYw+SRL.css_.css?AUIClients/AmazonUI#not-trident
+    font-family: "Amazon Ember",
+    sans-serif;
+}
+:root{
+   --header-background-color: #131921;
+   --overlay-background-color: rgba(0, 0, 0, 0.4);
+   --search-icon-background-color: #febd69;
+   --lang-label-font-color: #555c54;
+   --lang-shopping-font-color: #555c54;
+   --lang-link-color: #0000EE;
+   --white-color:#ffffff;
+   --input-radio-color:#ffd814;
+   --link-color: blue;
+   --link-hover-effect-color:rgb(247, 93, 4);
+   --drobdown-side-button:#a7acb2;
 }
 
 .main-nav{
     height: 60px;
     width: 100%;
-    background-color: #131921;
+    background-color: var(--header-background-color);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,7 +44,7 @@ body{
 }
 .amazon-eg{
     display: block;
-    color: white;
+    color: var(--white-color);
     font-size: 13px;
     margin-top: 38px;
     height: 2px;
@@ -59,7 +73,7 @@ body{
 }
 .location-item{
    display: block;
-    background: url("amazonlogo background.png");
+    background: url("amazonlogo background .png");
     background-position: -32px 161px;
     width: 104px;
     height: 50px;
@@ -82,13 +96,17 @@ body{
     margin-left: -46px;
     margin-top: 13px;
 }
+.mainnav-location:hover {
+    border: 1px solid var(--white-color);
+    padding-right: 0px;
+}
 .mainnav-delivary2{
     width: 150px;
     height: 15px;
     font-size: 12px;
     font-family: inherit;
     font-weight: 500;
-    color: #a8b8a6;
+    color: #a5ada4;
 }
 .mainnav-delivary3{
     display: inline;
@@ -96,8 +114,10 @@ body{
     width: 179px;
     height: 10px;
     font-size: 15px;
-    color: #ffffff;
+    color: var(--white-color);
     font-weight: 600;
+     font-family: "Amazon Ember", Arial, Helvetica,
+    sans-serif;
 }
 .search-box{
     display: flex;
@@ -113,7 +133,7 @@ body{
     align-items: center;
     width: 634px;
     height: 40px;
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 7px;
     gap: 300px;
 }
@@ -123,6 +143,8 @@ body{
     height: 40px;
     margin-left: 0px;
     margin-right: auto;
+    font-family: "Amazon Ember", Arial, Helvetica,
+    sans-serif;
 }
 .ALL-drobdownbutton{
     display: block;
@@ -130,18 +152,13 @@ body{
     height: 41px;
     color: #666666;
 }
-.All-spaceholder{
-    color: black;
-    margin-top: 11px;
-    margin-left: 10px;
-}
 .All-button{
     margin-left: 11px;
     color: #666666;
     font-size: smaller;
 }
-.spaceholder{
-    font-size: 17px;
+.placeholder{
+    font-size: 14px;
     margin-top: 11px;
     margin-left: 9px;
 }
@@ -153,7 +170,7 @@ body{
   background-position: 2px 171px;
   margin-right: 0px;
   margin-left: auto;
-  background-color: #febd69;
+  background-color: var(--search-icon-background-color);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -196,7 +213,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--overlay-background-color);
     z-index: 999;
 }
 .favourite-lang-drobdown::before{
@@ -219,19 +236,20 @@ body{
    position: absolute;
 }
 .favourite-lang-label{
-  color: #555c54;
+  color: var(--lang-label-font-color);
   font-family: Arial, sans-serif; 
   font-size: 12px; 
 }
 .favourite-lang-shopping{
     margin-top: 29px;
-    color: #555c54;
+    color: var(--lang-shopping-font-color);
     font-family: Arial, sans-serif;
    font-size: 15px; 
 }
 .favourite-lang-button{
-    color: #0066c0;
+    color: var(--lang-link-color);
     text-decoration: none;
+    font-size: 14px;
 }
 .favourite-lang-content{
     display: block;
@@ -261,7 +279,7 @@ body{
 }
 .mainnav-lang:hover .favourite-lang-fieldset{
     display: block;
-    background-color: white;
+    background-color: var(--white-color);
     border: none;
 }
 .mainnav-lang:hover .dropdown-overlay{
@@ -275,7 +293,7 @@ body{
     display: block;
 }
 .mainnav-en-lang{
-    color: white;
+    color: var(--white-color);
     font-size: 13px;
     margin-left: 3px;
     margin-top: 4px;
@@ -290,8 +308,8 @@ body{
     width: 55px;
     height: 50px;
 }  
-.mainnav-right-button{
-    color: #a7acb2;
+.mainnav-right-lang-button{
+    color: var(--drobdown-side-button);
     margin-top: 32px;
     font-size: smaller;
     margin-left: 3px;
@@ -299,18 +317,18 @@ body{
     height: 40px;
 }
 .mainnav-lang:hover .mainnav-lang-button{
-border: 1px solid white;
+border: 1px solid var(--white-color);
 z-index: 1000;
 width: 53px;
 }
 input[type="radio"] {
-    accent-color: #ffd814;
+    accent-color: var(--input-radio-color);
 }
 .mainnav-signin{
     display: flex;
     margin-left: 44px;
     margin-top: 18px;
-    width: 133.55px;
+    width: 120px;
     height: 55px;
 }
 .signin{
@@ -321,30 +339,35 @@ input[type="radio"] {
     height: 55px;
 }
 .mainnav-hello{
-    color: #ffffff;
+    color: var(--white-color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
 }
 .mainnav-account{
-    color: #fffff8;
+    color: var(--white-color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-top: 2px;
     font-weight: 600;
 }
+.singin-sidebutton{
+    margin-top: 30px;
+    margin-left: 19px;
+}
 .signin-button{
-    color: #666666;
-    margin-left: -35px;
+    color: var(--drobdown-side-button);
+    margin-left: -32px;
     margin-top: 14px;
     font-size: smaller;
 }
 .signin:hover {
-    border: 1.2px solid #ffffff;
+    border: 1.2px solid var(--white-color);
     z-index: 1010;
+    width: 105px;
 
 }
 .signin-drobdown-link-start:hover{
-    color: rgb(247, 93, 4);
+    color: var(--link-hover-effect-color);
     text-decoration: underline;
 }
 .signin:hover .signin-drobdown{
@@ -412,7 +435,7 @@ input[type="radio"] {
     align-items: center;
     width: 290px;
     height: 10px;
-    background-color: white;
+    background-color: var(--white-color);
     margin-top: 8px;
     font-size: 12px;
 }
@@ -421,7 +444,7 @@ input[type="radio"] {
     margin-right: 5px;
 }
 .signin-drobdown-link-start{
-    color: blue;
+    color: var(--link-color);
      margin-bottom: 8px; 
 }
 .signin-drobdown-line-header{
@@ -486,11 +509,11 @@ input[type="radio"] {
     font-size: 14px;
 }
 .signin-drobdown-link:hover{
-    color: rgb(247, 93, 4);
+    color: var(--link-hover-effect-color);
     text-decoration: underline;
 }
 .signin-drobdown-creat:hover{
-    color: rgb(247, 93, 4);
+    color: var(--link-hover-effect-color);
     text-decoration: underline;
 }
 .orders{
@@ -500,10 +523,10 @@ input[type="radio"] {
     margin-top: 27px;
     margin-left: 4px;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 14px;
 }
 .orders2{
-    color: white;
+    color: var(--white-color);
 }
 .mainnav-right-car{
     display: flex;
@@ -537,9 +560,10 @@ input[type="radio"] {
     margin-top: 10px;
 }
 .cart{
-    margin-top: 24px;
+    margin-top: 28px;
     margin-left: -54px;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     color: #f0f8ff;
 }
 .secend-nav{
@@ -574,7 +598,7 @@ input[type="radio"] {
     opacity: 0;
 }
 .humberger-all{
-    color: white;
+    color: var(--white-color);
     margin-left: 28px;
     font: bold 13px Arial,sans-serif 
 
@@ -609,9 +633,118 @@ input[type="radio"] {
     height: 39px;
     margin-left: 46px;
 }
+.prime{
+    display: block;
+    width: 34px;
+    height: 20px;
+    position: relative;
+}
 .prime-button{
-    color: #a7acb2;
+    color: var(--drobdown-side-button);
     font-size: small;
+    margin-left: 35px;
+    margin-top: -14px;
+    position: absolute;
+}
+.prime-drobdown-overlay{
+     position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+}
+.prime-drobdown{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 340px;
+    height: 450px;
+    margin-top: 8px;
+    margin-left: -11px;
+}
+.prime-drobdown::before{
+   display: block;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 15%;
+    margin-top: 2px;
+    transform: translateX(-50%);
+    border-width: 0 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent white; 
+}
+.prime:hover .prime-drobdown{
+    display: block;
+    background-color: var(--white-color);
+    z-index: 1000;
+
+}
+.prime:hover .prime-drobdown-overlay{
+    display: block;
+}
+.prime-drobdown-header{
+    display: block;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.prime-head{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    margin-left: 2px;
+}
+.prime-paragraph1{
+    margin-left: -7px;
+    font-size: 12px;
+}
+.prime-paragraph2{
+    margin-left: 19px;
+    font-size: 15px;
+}
+.prime-photo{
+    display: flex;
+    width: 312px;
+    height: 245px;
+    justify-content: center;
+    background-color: #0773f7;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.prime-join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+    height: 32px;
+    border-radius: 15px;
+    background-color: rgb(238, 204, 12);
+    margin-top: 14px;
+    margin-left: 17px;
+}
+.prime-link{
+    color: black !important ;
+}
+.prime-logo{
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin-top: 20px;
+}
+.list:hover a{
+    border: 1px solid var(--white-color);
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.humberger-menu:hover {
+    border: 1px solid var(--white-color);
+    
+    
+
 }
 
 
