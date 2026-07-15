@@ -414,18 +414,18 @@ body {
     align-items: center;
     width: 3.4375rem;
     height: 3.125rem;
-    margin-left: 15px;
+    margin-left: 13px;
 }
 
 .mainnav-right-lang-button {
     display: inline-block;
     width: 2px;
     height: 0px;
-    border-left: 3px solid;
-    border-right: 3px solid;
+    border-left: 5px solid;
+    border-right: 4px solid;
     border-top: 4px solid #9a9da1;
-    margin-left: 3px;
-    margin-top: 6px;
+    margin-left: 2px;
+    margin-top: 8px;
 }
 
 .mainnav-lang:hover .mainnav-lang-button {
@@ -439,8 +439,10 @@ input[type="radio"] {
 
 .mainnav-signin {
     display: flex;
-    margin-left: 0.8125rem;
-    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.125rem;
+    margin-top: 0.3125rem;
     width: 8.8125rem;
     height: 4.4375rem;
 
@@ -458,7 +460,7 @@ input[type="radio"] {
     flex-direction: column;
     width: 140px;
     height: 3.4375rem;
-    margin-top: -3px;
+    margin-top: -4px;
     margin-left: 1.1875rem;
     border-color: 1.2px solid transparent;
 }
@@ -479,20 +481,22 @@ input[type="radio"] {
     font-size: 12px;
     margin-left: 5px;
     margin-top: -12px;
+    font-weight: 700;
     font-family: 'Amazon Ember';
 }
 
 .mainnav-account {
     color: var(--white-color);
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 700;
     margin-left: 4px;
-    margin-top: 1px;
+    margin-top:1px;
+    letter-spacing: 1px;
     font-family: 'Amazon Ember';
 }
 
 .singin-sidebutton {
-    margin-top: 1.625rem;
+    margin-top: 1.5rem;
     margin-left: -5px;
 }
 
@@ -503,7 +507,7 @@ input[type="radio"] {
     border-left: 3px solid;
     border-right: 3px solid;
     border-top: 3px solid #9a9da1;
-    margin-left: -9px;
+    margin-left: -16px;
     margin-top: -6px;
 }
 
@@ -694,8 +698,8 @@ input[type="radio"] {
     margin-top: 20px;
     width: 55px;
     height: 20px;
-    margin-top: 1.6875rem;
-    margin-left: 4px;
+    margin-top: 1.5625rem;
+    margin-left: -2px;
     font-weight: 600;
     font-size: 0.857rem;
     border: 1px solid transparent;
@@ -704,7 +708,9 @@ input[type="radio"] {
 .orders-link {
     color: var(--white-color);
     text-decoration: none;
-    font-size: 0.8125rem;
+    font-size: 0.84375rem;
+    font-weight: 800;
+    letter-spacing: 1px;
     margin-left: 1.0625rem;
 }
 
@@ -721,25 +727,26 @@ input[type="radio"] {
     height: 3.125rem;
     margin-top: 0.6875rem;
     margin-right: 0.9375rem;
-    margin-left: 0.625rem;
+    margin-left: 0.875rem;
     border: 1px solid transparent;
 }
 
 .input-car {
-    font-size: 1.0625rem;
+    font-size: 0.9375rem;
     color: #f08804;
     margin-left: 1.5625rem;
-    font-weight: 700;
+    font-weight: bold;
+    margin-top: 1px;
 
 }
 
 .mainnav-shopingcar {
     display: block;
-    width: 5.1857rem;
+    width: 4.1857rem;
     height: 2.884rem;
     background: url("amazonlogo background .png");
-    background-position: -912px 122px;
-    margin-top: -1.5625rem;
+    background-position: -702px 122px;
+    margin-top: -1.625rem;
 }
 
 .mainnav-shopingcar2 {
@@ -757,9 +764,10 @@ input[type="radio"] {
 
 .cart {
     margin-top: 1.875rem;
-    margin-left: -52px;
-    font-size: 0.8125rem;
-    font-weight: 800;
+    margin-left: -54px;
+    font-size: 0.78125rem;
+    font-weight: bold;
+    letter-spacing: 1px;
     color: #f0f8ff;
 }
 
