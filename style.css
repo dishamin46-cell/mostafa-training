@@ -1155,3 +1155,164 @@ select{
      color: #666666;
      letter-spacing: 0.3px;
 }
+.product-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(2,562.59px);
+    grid-template-areas: "main main main main"
+                         "main main main main";
+}
+.printer{
+    display: block;
+    grid-area: "main";
+}
+.printer-imag{
+    display: block;
+    width: 244px;
+    height: 179px;
+    margin-left: 17px;
+    margin-top: 18px;
+    background-color: #f7f7f7;
+}
+.printer-data-container{
+    margin-top: 27px;
+}
+.sponsored-dropdown{
+    display: none;
+    position: absolute;
+    width: 410px;
+    height: 80px;
+    border: 1px solid gray;
+    background-color: var(--white-color);
+    border-radius: 8px;
+    bottom: 20px;
+    margin-left: -164px;
+    
+}
+.sponsored-dropdown-notification{
+    font-family: 'Amazon Ember';
+    font-size: 14px;
+}
+.sponsored-dropdown-content{
+    margin-left: 15px;
+    margin-top: 4px;
+    
+}
+.sponsored{
+    position: relative;
+
+}
+.sponsored-parent{
+    font-size: 12px;
+    margin-left: 16px;
+    font-family: 'Amazon Ember';
+}
+.sponsored-icon{
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    background-color: #969696;
+}
+.sponsored-icon-word{
+    font-size: 11px;
+    color: var(--white-color);
+
+}
+.sponsored-dropdown-customer-opinion{
+    text-decoration: none;
+}
+.sponsored:hover .sponsored-dropdown{
+    display: block;
+}
+.sponsored-parent:hover{
+    color: var(--link-hover-effect-color);
+    cursor: pointer;
+}
+.sponsored-dropdown::after {
+    display: none;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    transform: translateX(-10%);
+    rotate: 180deg;
+    border-width: 0 10px 10px;
+    border-style: solid ;
+    border-color: transparent transparent rgb(236, 233, 233);
+}
+.sponsored:hover  .sponsored-dropdown::after{
+    display: block;
+}
+.printer-data{
+    width: 240px;
+    margin-left: 17px;
+}
+.printer-data-link{
+    color: rgb(75, 74, 74);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 155%;
+}
+.printer-data-limited{
+    display: block;
+    width: 111px;
+    height: 25px;
+    margin-top: 8px;
+    background-color: #b10748;
+}
+.printer-data-limited-link{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    margin-left: 8px;
+    font-weight: 700;
+}
+.printer-discount{
+    display: block;
+    width: 237px;
+    height: 150px;
+    line-height: 166%;
+}
+.printer-discount-link{
+    text-decoration: none;
+    color: #666666;
+}
+.printer-discount-after{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+.printer-discount-day{
+    font-weight: 800;
+}
+.printer-discount-persntage{
+    color: #666666;
+}
+.printer-cart{
+    display: block;
+    width: 241px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: #ffd814;
+    margin-top: -56px;
+}
+.printer-cart-link{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+}
+.printer-cart-link-container{
+    display: flex;
+    width: 240px;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+}
