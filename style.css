@@ -1193,7 +1193,7 @@ select {
 .product-grid-container {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(2, 562.59px);
+    grid-template-rows: repeat(4, 562.59px);
     grid-template-areas: "main main main main"
         "main main main main";
     column-gap: 10px;
@@ -1774,9 +1774,20 @@ select {
     font-family: Arial, sans-serif;
     margin-left: 10px;
 }
+.kindel-data-container{
+    margin-top: -12px;
+    line-height: 119%;
+}
 
 .kindel-information {
     background-color: #f7f7f7;
+}
+
+.kindel-discount-data {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
 }
 
 .kindel-tab-specification {
@@ -1791,9 +1802,18 @@ select {
     color: var(--link-hover-effect-color);
 }
 
+.kindel-discount-nomber {
+    font-size: 28px;
+}
+
 .kindel-tablet-discount-nomber {
     color: #666666;
     font-size: 14px;
+}
+.cards-off{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #888787;
 }
 
 .kindel-free-delevary {
@@ -1803,6 +1823,7 @@ select {
 .kindel-discount-day {
     font-size: 14px;
     font-weight: 800;
+    font-family: Arial, sans-serif;
 }
 
 .free-delvary-day {
@@ -1837,6 +1858,9 @@ select {
     font-family: Arial, sans-serif;
     margin-left: 10px;
 }
+.blender-cup-image{
+    margin-top: -10px;
+}
 
 .blender-cup-information {
     margin-left: 72px;
@@ -1853,60 +1877,180 @@ select {
 .blender-cup-information-link:hover {
     color: var(--link-hover-effect-color);
 }
-.blender-cup-price-nomber{
+
+.blender-cup-price-nomber {
     color: #111111;
-    font-size: 20px;
+    font-size: 28px;
 }
-.blender-cup-price{
-   text-decoration: none;
+
+.blender-cup-price {
+    text-decoration: none;
     color: black;
     font-weight: 600;
     font-family: Arial, sans-serif;
 
 }
-.blender-cup-information-links{
+
+.blender-cup-information-links {
     margin-left: -68px;
-    margin-top: 26px;
-    line-height: 148%;
+    margin-top: -11px;
+    line-height: 162%;
 }
-.blender-cup-discount{
+
+.blender-cup-discount {
     color: #5c5a5a;
 }
-.blender-cup-discount-presentage{
+
+.blender-cup-discount-presentage {
     caret-color: #d9ddd9;
+    font-size: 14px;
 }
-.blender-cup-discount-day{
+
+.blender-cup-discount-day {
     font-weight: 600;
     font-family: Arial, sans-serif;
     font-size: 14px;
 }
-.blender-cup-discount-month{
+
+.blender-cup-discount-month {
     font-weight: 600;
     font-family: Arial, sans-serif;
     font-size: 14px;
 }
-.blender-cup-discount-info{
+
+.blender-cup-discount-info {
     color: black;
 }
-.blender-cup-cart{
-     display: block;
+
+.blender-cup-cart {
+    display: block;
     width: 241px;
     height: 32px;
     border-radius: 12px;
     background-color: #ffd814;
     margin-top: 10px;
 }
-.blender-cup-cart-link-container{
-     display: flex;
+
+.blender-cup-cart-link-container {
+    display: flex;
     width: 240px;
     height: 31px;
     justify-content: center;
     align-items: center;
 }
-.blender-cup-cart-link{
+
+.blender-cup-cart-link {
     text-decoration: none;
     color: black;
     font-size: 14px;
     font-family: Arial, sans-serif;
     margin-left: 10px;
+}
+.food-information{
+    margin-top: 48px;
+}
+.food-data{
+    margin-top: 38px;
+    line-height: 131%;
+}
+
+.food-data-link {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 155%;
+}
+
+.food-data-link:hover {
+    color: var(--link-hover-effect-color);
+
+}
+
+.food-price {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+.EGP{
+    font-size: 16px;
+}
+
+.food-price-nomber {
+    font-size: 28px;
+}
+
+.food-discount-presentage {
+    caret-color: #929792;
+    font-size: 14px;
+}
+
+.food-discount-info {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.food-discount-day {
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.food-discount-month {
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.food-cart {
+    display: block;
+    width: 241px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: #ffd814;
+    margin-top: 10px;
+}
+
+.food-art-link-container {
+    display: flex;
+    width: 240px;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9px;
+}
+
+.food-cart-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+}
+.smart-watch-data{
+    margin-top: -30px;
+    line-height: 102%;
+}
+.smart-watch-data-head{
+    font-size: 18px;
+    font-family: 'Amazon Ember';
+    font-weight: 700;
+    color: black;
+}
+.smart-watch-data-link{
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 155%;
+}
+.smart-watch-data-link:hover{
+    color: var(--link-hover-effect-color);
+}
+.left-avaliable{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:  #c10015;
 }
