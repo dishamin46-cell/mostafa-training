@@ -1774,7 +1774,8 @@ select {
     font-family: Arial, sans-serif;
     margin-left: 10px;
 }
-.kindel-data-container{
+
+.kindel-data-container {
     margin-top: -12px;
     line-height: 100%;
 }
@@ -1810,7 +1811,8 @@ select {
     color: #666666;
     font-size: 14px;
 }
-.cards-off{
+
+.cards-off {
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: #888787;
@@ -1821,13 +1823,14 @@ select {
 }
 
 .kindel-discount-day {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
     font-family: Arial, sans-serif;
 }
 
 .free-delvary-day {
     font-weight: 800;
+    font-size: 14px;
 }
 
 .kindel-tablet {
@@ -1858,7 +1861,8 @@ select {
     font-family: Arial, sans-serif;
     margin-left: 10px;
 }
-.blender-cup-image{
+
+.blender-cup-image {
     margin-top: -10px;
 }
 
@@ -1946,10 +1950,12 @@ select {
     font-family: Arial, sans-serif;
     margin-left: 10px;
 }
-.food-information{
+
+.food-information {
     margin-top: 48px;
 }
-.food-data{
+
+.food-data {
     margin-top: 38px;
     line-height: 131%;
 }
@@ -1973,8 +1979,11 @@ select {
     font-weight: 600;
     font-family: Arial, sans-serif;
 }
-.EGP{
+
+.EGP {
     font-size: 16px;
+    font-weight: 200;
+    color: black;
 }
 
 .food-price-nomber {
@@ -1983,6 +1992,11 @@ select {
 
 .food-discount-presentage {
     caret-color: #929792;
+    font-size: 14px;
+}
+
+.shelf-locker-credit-cards-discount {
+    color: #383838;
     font-size: 14px;
 }
 
@@ -2029,104 +2043,228 @@ select {
     font-family: Arial, sans-serif;
     margin-left: 10px;
 }
-.smart-watch-data{
+
+.smart-watch-data {
     margin-top: -30px;
     line-height: 102%;
 }
-.smart-watch-data-head{
+
+.smart-watch-data-head {
     font-size: 18px;
     font-family: 'Amazon Ember';
     font-weight: 700;
     color: black;
 }
-.smart-watch-data-link{
+
+.smart-watch-data-link {
     color: rgb(17, 17, 17);
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     line-height: 155%;
 }
-.smart-watch-data-link:hover{
+
+.smart-watch-data-link:hover {
     color: var(--link-hover-effect-color);
 }
-.left-avaliable{
+
+.left-avaliable {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color:  #c10015;
+    color: #c10015;
 }
-.hand-mixer-image{
+
+.hand-mixer-image {
     margin-top: 35px;
 }
-.hand-mixer-data{
+
+.hand-mixer-data {
     text-decoration: none;
     color: black;
     margin-top: 32px;
+    line-height: 136%;
 }
-.hand-mixer-discount-data{
-      text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-family: Arial, sans-serif;
-}
-.hand-mixer-discount-nomber{
-    font-size: 24px;
-}
-.hand-mixer-free-delevary{
-    font-size: 14px;
-}
-.hand-mixer-discount-day{
-     font-weight: 600;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-}
-.hand-mixer-discount-presentage{
-    color: rgb(131, 131, 131);
-}
-.salon-chair-head{
-    font-size: 16px;
-}
-.salon-chair-information{
+
+.hand-mixer-discount-data {
     text-decoration: none;
     color: black;
-    font-size: 16px;
-}
-.salon-chair-information:hover{
-    color: var(--link-hover-effect-color);
-}
-.current-avaliable{
-    font-size: 12px;
-}
-.salon-chair-discount-data{
-      text-decoration: none;
-    color: black;
     font-weight: 600;
     font-family: Arial, sans-serif;
 }
-.salon-chair-discount-nomber{
+
+.hand-mixer-discount-nomber {
     font-size: 24px;
 }
-.salon-chair-discount-presentage{
+
+.hand-mixer-free-delevary {
+    font-size: 14px;
+}
+
+.hand-mixer-discount-day {
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.hand-mixer-discount-presentage {
     color: rgb(131, 131, 131);
 }
-.salon-chair-option{
-     display: block;
+
+.salon-chair-head {
+    font-size: 16px;
+}
+
+.salon-chair-information {
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.salon-chair-information:hover {
+    color: var(--link-hover-effect-color);
+}
+
+.current-avaliable {
+    font-size: 12px;
+}
+
+.salon-chair-discount-data {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    line-height: 131%;
+}
+
+.salon-chair-discount-nomber {
+    font-size: 24px;
+}
+
+.salon-chair-discount-presentage {
+    color: rgb(131, 131, 131);
+}
+
+.salon-chair-delevary-day {
+    font-size: 14px;
+    color: rgb(32, 32, 32);
+}
+
+.salon-chair-delevary-month {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+
+}
+
+.salon-chair-cart {
+    display: block;
     width: 241px;
-    height: 32px;
+    height: 33px;
     border-radius: 12px;
     border: 1px solid rgb(158, 156, 156);
     margin-top: 10px;
+    border-radius: 8px;
+    border: none;
 }
-.salon-chair-option-link-container{
-     display: flex;
-    width: 240px;
+
+.salon-chair-cart-link-container {
+    display: flex;
+    width: 241px;
     height: 31px;
     justify-content: center;
     align-items: center;
+    background-color: #ffd814;
+    border-radius: 12px;
+
 }
-.salon-chair-option-link{
-     text-decoration: none;
+
+.salon-chair-cart-link {
+    text-decoration: none;
     color: black;
     font-size: 14px;
     font-family: Arial, sans-serif;
     margin-left: 10px;
+
+}
+
+.kindel-colorsoft-data-container {
+    line-height: 113%;
+}
+
+.shelf-locker-data {
+    line-height: 142%;
+}
+.shelf-locker-data-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-family: Arial, sans-serif;
+}
+
+.shelf-locker-data:hover {
+    color: var(--link-hover-effect-color);
+}
+
+.shelf-locker-discount-nomber {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+.shelf-locker-price{
+    text-decoration: none;
+    color: black;
+}
+
+.shelf-locker-delevary-day {
+    font-size: 14px;
+    color: rgb(32, 32, 32);
+}
+
+.shelf-locker-delevary-month {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+
+}
+
+.shelf-locker-cart {
+    display: block;
+    width: 241px;
+    height: 33px;
+    border-radius: 12px;
+    border: 1px solid rgb(158, 156, 156);
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.shelf-locker-cart-link-container {
+    display: flex;
+    width: 241px;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd814;
+    border-radius: 12px;
+}
+
+.shelf-locker-cart-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+
+}
+.kindel-white-pepper-head{
+    font-size: 16px;
+    font-weight: bold;
+}
+.kindel-white-pepper-stuck-status{
+    color: #212221;
+    font-size: 12px;
 }
