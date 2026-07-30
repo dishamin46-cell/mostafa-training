@@ -1776,7 +1776,7 @@ select {
 }
 .kindel-data-container{
     margin-top: -12px;
-    line-height: 119%;
+    line-height: 100%;
 }
 
 .kindel-information {
@@ -1902,7 +1902,7 @@ select {
 }
 
 .blender-cup-discount-presentage {
-    caret-color: #d9ddd9;
+    color: rgb(131, 131, 131);
     font-size: 14px;
 }
 
@@ -2053,4 +2053,80 @@ select {
     font-family: Arial, sans-serif;
     font-size: 14px;
     color:  #c10015;
+}
+.hand-mixer-image{
+    margin-top: 35px;
+}
+.hand-mixer-data{
+    text-decoration: none;
+    color: black;
+    margin-top: 32px;
+}
+.hand-mixer-discount-data{
+      text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+.hand-mixer-discount-nomber{
+    font-size: 24px;
+}
+.hand-mixer-free-delevary{
+    font-size: 14px;
+}
+.hand-mixer-discount-day{
+     font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.hand-mixer-discount-presentage{
+    color: rgb(131, 131, 131);
+}
+.salon-chair-head{
+    font-size: 16px;
+}
+.salon-chair-information{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.salon-chair-information:hover{
+    color: var(--link-hover-effect-color);
+}
+.current-avaliable{
+    font-size: 12px;
+}
+.salon-chair-discount-data{
+      text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+.salon-chair-discount-nomber{
+    font-size: 24px;
+}
+.salon-chair-discount-presentage{
+    color: rgb(131, 131, 131);
+}
+.salon-chair-option{
+     display: block;
+    width: 241px;
+    height: 32px;
+    border-radius: 12px;
+    border: 1px solid rgb(158, 156, 156);
+    margin-top: 10px;
+}
+.salon-chair-option-link-container{
+     display: flex;
+    width: 240px;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+}
+.salon-chair-option-link{
+     text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
 }
