@@ -1465,6 +1465,12 @@ select {
 .stars-arrow {
     display: inline-block;
 }
+.custumer-valuation-nomber{
+    font-size: 12px;
+}
+.custumer-valuation-link{
+    font-size: 12px;
+}
 
 .custumer-valuation-popover {
     display: block;
@@ -1747,6 +1753,7 @@ select {
     font-family: "Amazon Ember" Arial, sans-serif;
     font-weight: 200;
     color: #c10015;
+    font-size: 14px;
 
 }
 
@@ -2046,7 +2053,7 @@ select {
 
 .smart-watch-data {
     margin-top: -30px;
-    line-height: 102%;
+    line-height: 95%;
 }
 
 .smart-watch-data-head {
@@ -2196,7 +2203,8 @@ select {
 .shelf-locker-data {
     line-height: 142%;
 }
-.shelf-locker-data-link{
+
+.shelf-locker-data-link {
     text-decoration: none;
     color: black;
     font-weight: 200;
@@ -2213,7 +2221,8 @@ select {
     font-family: Arial, sans-serif;
     text-decoration: none;
 }
-.shelf-locker-price{
+
+.shelf-locker-price {
     text-decoration: none;
     color: black;
 }
@@ -2260,11 +2269,170 @@ select {
     margin-left: 10px;
 
 }
-.kindel-white-pepper-head{
+
+.kindel-whitepepper-discount-data {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+.kindel-white-pepper-head {
     font-size: 16px;
     font-weight: bold;
 }
-.kindel-white-pepper-stuck-status{
+
+.kindel-white-pepper-stuck-status {
     color: #212221;
     font-size: 12px;
+}
+
+.wirelwss-earphones-image {
+    margin-top: 44px;
+}
+
+.wirelwss-earphones-head {
+    font-size: 16px;
+}
+
+.wirelwss-earphones-data {
+    margin-top: 60px;
+    line-height: 146%;
+}
+
+.wirelwss-earphones-data-link {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wirelwss-earphones-data-link:hover {
+    color: var(--link-hover-effect-color);
+}
+
+.wirelwss-earphones-price-link {
+    text-decoration: none;
+}
+
+.wirelwss-earphones-price {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+
+.wirelwss-earphones-price-zero {
+    font-size: 16px;
+    color: black;
+}
+
+.wireless-earphone-free-delevary {
+    font-size: 14px;
+}
+
+.wireless-earphone-discount-day {
+    font-weight: 800;
+}
+
+.wireless-earphone-stock {
+    font-family: "Amazon Ember" Arial, sans-serif;
+    font-weight: 200;
+    color: #c10015;
+}
+
+.wireless-earphone-cart {
+    display: block;
+    width: 241px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: #ffd814;
+}
+
+.wireless-earphone-cart-link-container {
+    display: flex;
+    width: 241px;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd814;
+    border-radius: 12px;
+}
+
+.wireless-earphone-cart-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+
+    
+}
+.wifi-jack-data-link{
+ color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.wifi-jack-data-link:hover{
+    color: var(--link-hover-effect-color);
+}
+.wifi-jack-data{
+    line-height: 149%;
+    margin-top: 16px;
+}
+.wifi-jack-discount-data{
+text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+.wifi-jack-discount-nomber{
+font-size: 28px;
+}
+.staudy-disk-data-head{
+    font-size: 16px;
+}
+.staudy-disk-data{
+    line-height: 147%;
+}
+.staudy-disk-data-link{
+   color: rgb(75, 74, 74);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600; 
+}
+.staudy-disk-data-link:hover{
+    color: var(--link-hover-effect-color);
+}
+.study-disk-discount-data{
+ text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+.study-disk-discount-nomber{
+font-size: 28px;
+}
+.study-disk-earphone-cart{
+  display: block;
+    width: 241px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: #ffd814;
+}
+.study-disk--cart-link-container{
+display: flex;
+    width: 241px;
+    height: 31px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd814;
+    border-radius: 12px;
+}
+.study-disk-cart-link{
+text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
 }
