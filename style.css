@@ -22,7 +22,12 @@
     font-weight: 200;
     src: url(./Dv1WQ5DdeMS5qP7.woff2) format("woff2"), url(./e0LnMbFWJC-TMQz.woff) format("woff");
 }
-
+/*@font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 400;
+    src: url(amazonember400.woff2) format("woff2"), url(amazonember400.woff2) format("woff");
+}
+*/
 * {
     font-family: "Amazon Ember";
 }
@@ -1118,6 +1123,35 @@ select {
     height: 500px;
     margin-top: 25px;
 }
+.aside-product-checkboxes{
+    display: inline-block;
+    width: 250px;
+    height: 600px;
+}
+.aside-product-checkboxes-fullfilled{
+    display: inline-block;
+}
+.aside-product-checkboxes-fullfilled-form{
+    display: inline-block;
+}
+.aside-product-checkboxes-fullfilled-arrow{
+    display: inline-block;
+    width: 27px;
+    height: 12px;
+    background-image: url(images/asidearrow.png);
+    background-position: -222px -169px;
+}
+.aside-product-checkboxes-fullfilled-mirror{
+    display: block;
+    width: 26px;
+    height: 31.9px;
+    opacity: 0;
+}
+.aside-product-checkboxes-fullfilled-form-span{
+    font-size: 14px;
+    margin-left: -14px;
+}
+
 
 .aside-category {
     width: 90px;
@@ -2483,6 +2517,7 @@ select {
     align-items: center;
     padding: 7px;
 }
+
 .amazon-egypt-search-link-icon {
     margin-left: 10px;
 }
@@ -2493,24 +2528,28 @@ select {
     align-items: center;
     padding: 7px;
 }
-.related-search-container{
-    display:inline-block;
+
+.related-search-container {
+    display: inline-block;
     width: 80%;
     height: 300px;
     border: 1px solid rgb(221, 221, 221);
     margin-left: 268px;
     border: none;
 }
-.related-search-head{
+
+.related-search-head {
     font-size: 16px;
     font-family: "Amazon Ember";
     font-weight: 600;
     margin-left: 10px;
 }
-.related-search-amazon-egypt-container{
+
+.related-search-amazon-egypt-container {
     display: inline-block;
 }
-.related-search-amazon-egypt-link{
+
+.related-search-amazon-egypt-link {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2518,13 +2557,15 @@ select {
     text-decoration: none;
     color: black;
 }
-.related-search-amazon-egypt{
+
+.related-search-amazon-egypt {
     width: 325px;
     height: 60px;
     border: 1px solid rgb(221, 221, 221);
 }
-.search-icon{
-    display:inline-block;
+
+.search-icon {
+    display: inline-block;
     width: 25px;
     height: 25px;
     margin-left: 10px;
@@ -2532,12 +2573,14 @@ select {
     margin-right: 10px;
 
 }
-.related-search-amazon-eg{
+
+.related-search-amazon-eg {
     width: 325px;
     height: 60px;
     border: 1px solid rgb(221, 221, 221);
 }
-.related-search-amazon-eg-link{
+
+.related-search-amazon-eg-link {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2545,18 +2588,21 @@ select {
     text-decoration: none;
     color: black;
 }
-.related-search-amazon-souc-container{
+
+.related-search-amazon-souc-container {
     display: inline-block;
     width: 326px;
     height: 122px;
     margin-left: 6px;
 }
-.related-search-amazon-souc{
+
+.related-search-amazon-souc {
     width: 325px;
     height: 60px;
     border: 1px solid rgb(221, 221, 221);
 }
-.related-search-amazon-souc-link{
+
+.related-search-amazon-souc-link {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2564,12 +2610,14 @@ select {
     text-decoration: none;
     color: black;
 }
-.related-search-amazon-airpods{
+
+.related-search-amazon-airpods {
     width: 325px;
     height: 60px;
     border: 1px solid rgb(221, 221, 221);
 }
-.related-search-amazon-airpods-link{
+
+.related-search-amazon-airpods-link {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2577,17 +2625,20 @@ select {
     text-decoration: none;
     color: black;
 }
-.related-search-amazon-airpods-container{
+
+.related-search-amazon-airpods-container {
     display: inline-block;
     width: 326px;
     height: 122px;
 }
-.related-search-amazon-usa{
+
+.related-search-amazon-usa {
     width: 325px;
     height: 60px;
     border: 1px solid rgb(221, 221, 221);
 }
-.related-search-amazon-usa-link{
+
+.related-search-amazon-usa-link {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2595,17 +2646,20 @@ select {
     text-decoration: none;
     color: black;
 }
-.related-search-amazon-usa-container{
+
+.related-search-amazon-usa-container {
     display: inline-block;
     width: 326px;
     height: 122px;
 }
-.related-search-amazon-a54{
+
+.related-search-amazon-a54 {
     width: 325px;
     height: 60px;
     border: 1px solid rgb(221, 221, 221);
 }
-.related-search-amazon-a54-link{
+
+.related-search-amazon-a54-link {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2613,7 +2667,8 @@ select {
     text-decoration: none;
     color: black;
 }
-.pagiation-container{
+
+.pagiation-container {
     width: 395px;
     height: 45px;
     margin-top: -20pxpx;
@@ -2624,25 +2679,29 @@ select {
     align-items: center;
     border: 1px solid rgb(221, 221, 221);
     border-radius: 10px;
-    box-shadow:     0px 1px 3px rgb(221, 221, 221);
+    box-shadow: 0px 1px 3px rgb(221, 221, 221);
 
 }
-.pagination{
+
+.pagination {
     list-style-type: none;
 }
-.pagiation-container-nav{
+
+.pagiation-container-nav {
     width: 390px;
     display: flex;
     flex-direction: row;
     padding: 20px;
     align-items: center;
 }
-.pagination{
+
+.pagination {
     display: flex;
     flex-direction: row;
     margin-left: -30px;
 }
-.direction-arrow{
+
+.direction-arrow {
     text-decoration: none;
     font-size: 14px;
     width: 20px;
@@ -2650,7 +2709,8 @@ select {
     margit-left: -6px;
     color: gray;
 }
-.direction-previous{
+
+.direction-previous {
     text-decoration: none;
     font-size: 16px;
     width: 20px;
@@ -2658,7 +2718,8 @@ select {
     margin-left: 18px;
     color: gray;
 }
-.direction-arrow-next{
+
+.direction-arrow-next {
     text-decoration: none;
     font-size: 14px;
     width: 10px;
@@ -2666,24 +2727,28 @@ select {
     margin-left: 42px;
     color: black;
 }
-.page-link{
+
+.page-link {
     text-decoration: none;
     font-size: 16px;
     color: black;
     padding: 15px;
 }
-.page-link-six{
+
+.page-link-six {
     text-decoration: none;
     font-size: 16px;
     color: rgb(75, 73, 73);
     padding: 15px;
 }
-.page-link:hover{
+
+.page-link:hover {
     background-color: rgb(88, 86, 90);
     color: white;
     padding: 15px;
 }
-.page-link-one{
+
+.page-link-one {
     padding: 14px;
     margin-left: 13px;
     text-decoration: none;
@@ -2693,12 +2758,14 @@ select {
     color: black;
     border: 1px solid black;
 }
-.footer{
-    display: block;
+
+.footer {
+    display: inline-block;
     width: 100%;
     height: 641px;
 }
-.back-to-top-container{
+
+.back-to-top-container {
     display: block;
     text-align: center;
     padding: 15px;
@@ -2706,44 +2773,341 @@ select {
     background-color: #37475a;
     margin-top: 250px;
 }
-.back-to-top-link{
+
+.back-to-top-link {
     text-decoration: none;
     color: white;
     font-size: 14px;
     font-family: "Amazon Ember";
     font-weight: 600;
 }
-.contact-container{
+
+.contact-container {
     display: block;
     width: 100%;
     height: 300px;
     background-color: #232f3e;
 }
-.contact-container-links{
-    display: block;
-    width: 300px;
-    height: 250px;
+
+.contact-container-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    background-color: #232f3e;
+    margin-left: 130px;
 }
-.contact-container-links-head{
+
+.contact-with-us-container {
+    display: inline-block;
+    width: 260px;
+    height: 250px;
+    text-align: left;
+}
+
+.contact-container-links-head {
     display: inline-block;
     color: white;
     font-size: 16px;
     font-family: "Amazon Ember";
     font-weight: 600;
-    margin-left: 40px;
-    margin-top: 0;
-    
+    margin-top: 40px;
+
 }
-.contact-container-links-list{
+
+.contact-container-links-list {
     list-style-type: none;
+    margin-left: -42px;
 }
-.contact-container-links-list-link{
+
+.contact-container-links-list-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Amazon Ember";
+}
+
+.contact-container-links-list-item:hover {
+    text-decoration: underline white;
+}
+
+.contact-container-links-list-item {
+    margin-bottom: 8px;
+}
+
+.shop-with-us-container {
+    display: inline-block;
+    width: 260px;
+    height: 250px;
+    text-align: left;
+}
+
+.shop-with-us-container-links-head {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-family: "Amazon Ember";
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.shop-with-us-container-links-list {
+    list-style-type: none;
+    margin-left: -42px;
+}
+
+.shop-with-us-container-links-list-link {
     text-decoration: none;
     color: white;
     font-size: 14px;
     font-family: "Amazon Ember";
     padding: 5px;
 }
-.contact-container-links-list-item{
+
+.shop-with-us-container-links-list-item {
     margin-bottom: 8px;
+}
+
+.shop-with-us-container-links-list-item:hover {
+    text-decoration: underline white;
+}
+
+.make-money-with-us-container {
+    display: inline-block;
+    width: 270px;
+    height: 250px;
+}
+
+.make-money-with-us-container-links-head {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-family: "Amazon Ember";
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.make-money-with-us-container-links-list {
+    list-style-type: none;
+    margin-left: -42px;
+}
+
+.make-money-with-us-container-links-list-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Amazon Ember";
+    padding: 5px;
+}
+
+.make-money-with-us-container-links-list-item {
+    margin-bottom: 8px;
+}
+
+.make-money-with-us-container-links-list-item:hover {
+    text-decoration: underline white;
+}
+
+.let-us-help-you-container {
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    margin-left: 67px;
+}
+
+.let-us-help-you-container-links-head {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-family: "Amazon Ember";
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.let-us-help-you-container-links-list {
+    list-style-type: none;
+    margin-left: -42px;
+}
+
+.let-us-help-you-container-links-list-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Amazon Ember";
+    padding: 5px;
+}
+
+.let-us-help-you-container-links-list-item {
+    margin-bottom: 8px;
+}
+
+.let-us-help-you-container-links-list-item:hover {
+    text-decoration: underline white;
+}
+
+.amazon-footer {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #232f3e;
+    border-top: 0.1px solid rgb(87, 85, 85);
+}
+
+.amazon-footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 222px;
+    width: 700px;
+    height: 100px;
+}
+
+.amazon-footer-language-link {
+    display: flex;
+    width: 100px;
+    height: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amazon-footer-language {
+    padding: 8px 20px;
+    margin-left: 133px;
+    border-radius: 4px;
+    border: 0.2px solid rgb(148, 147, 147);
+}
+
+.amazon-footer-language-link-button {
+    margin-right: -15px;
+}
+
+.amazon-footer-language-link-earth {
+    margin-left: -10px;
+}
+
+.amazon-footer-logo {
+    margin-left: 157px;
+}
+
+.amazon-footer-language-link-text {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Amazon Ember";
+    text-align: center;
+    margin-left: -38px;
+}
+
+.amazon-footer-flag {
+    display: inline-block;
+    margin-left: 12px;
+    border-radius: 4px;
+    border: 0.2px solid rgb(148, 147, 147);
+}
+
+.amazon-footer-flag-link-text {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Amazon Ember";
+}
+
+.amazon-footer-flag-link {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    width: 100px;
+    height: 35px;
+}
+
+.amazon-footer-flag-imge {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.amazon-footer-service{
+    display:block;
+    width:100%;
+    height: 300px;
+    background-color: #232f3e;
+    border-top: 0.1px solid rgb(87, 85, 85);
+}
+.amazon-footer-service-container{
+    display:block;
+    width: 100%;
+    height: 100px;
+}
+.amazon-footer-service-list{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 134px;
+    margin-right: 363px;
+}
+.amazon-footer-service-list-item{
+    list-style-type:none;
+    line-height: 1;
+}
+.amazon-footer-service-list-item:hover{
+    text-decoration:underline white;
+}
+.amazon-footer-service-list-link{
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+    font-family:"Amazon Ember";
+}
+.amazon-footer-service-list-link-span{
+    color: #ddddd1;
+    font-family: "Amazon Ember";
+    font-weight: 200;
+}
+.amazon-footer-condition{
+    display:block;
+    width:100%;
+    height: 100px;
+    background-color: #232f3e;
+    line-height: 0;
+    margin-top: 54px;
+}
+.amazon-footer-condition-container{
+    display: block;
+    width: 700px;
+    height: 100px;
+    margin-left: 592px;
+}
+.amazon-footer-condition-list{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    line-height: 1;
+    margin-left: -80px;
+    margin-right: 340px;
+    font-size: 12px;
+    
+    
+}
+.amazon-footer-condition-list-item{
+    list-style-type:none;
+    line-height: 1;
+    font-size: 12;
+}
+.amazon-footer-condition-list-item:hover{
+    text-decoration:underline white;
+}
+.amazon-footer-condition-list-link{
+    text-decoration:none;
+    color:white;
+    font-size:12px;
+    font-family:"Amazon Ember";
+
+}
+.copyright{
+    color: white;
 }
