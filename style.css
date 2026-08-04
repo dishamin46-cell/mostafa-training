@@ -22,6 +22,7 @@
     font-weight: 200;
     src: url(./Dv1WQ5DdeMS5qP7.woff2) format("woff2"), url(./e0LnMbFWJC-TMQz.woff) format("woff");
 }
+
 /*@font-face {
     font-family: 'Amazon Ember';
     font-weight: 400;
@@ -1120,38 +1121,111 @@ select {
 .aside-product {
     display: block;
     width: 260px;
-    height: 500px;
+    height: 1510px;
     margin-top: 25px;
 }
-.aside-product-checkboxes{
+
+.aside-product-checkboxes {
     display: inline-block;
     width: 250px;
-    height: 600px;
+    height: 410px;
+    margin-left: 15px;
 }
-.aside-product-checkboxes-fullfilled{
+
+.aside-product-checkboxes-fullfilled-head {
+    display: inline;
+    margin-left: 5px;
+}
+
+.aside-product-checkboxes-fullfilled {
     display: inline-block;
 }
-.aside-product-checkboxes-fullfilled-form{
+
+.aside-product-checkboxes-fullfilled-form {
     display: inline-block;
 }
-.aside-product-checkboxes-fullfilled-arrow{
+
+.aside-product-checkboxes-fullfilled-arrow {
     display: inline-block;
     width: 27px;
     height: 12px;
     background-image: url(images/asidearrow.png);
     background-position: -222px -169px;
 }
-.aside-product-checkboxes-fullfilled-mirror{
+
+.aside-product-checkboxes-fullfilled-mirror {
     display: block;
     width: 26px;
     height: 31.9px;
     opacity: 0;
 }
-.aside-product-checkboxes-fullfilled-form-span{
+
+.aside-product-checkboxes-fullfilled-form-span {
     font-size: 14px;
     margin-left: -14px;
 }
 
+.checkbox {
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgb(153, 150, 150);
+    border-radius: 2px;
+    vertical-align: middle;
+}
+.checkbox:hover {
+    border: 3px solid rgb(14, 148, 137);
+}
+
+
+.free-shipping-link {
+    text-decoration: none;
+    color: black;
+}
+
+.free-shipping-link:hover {
+    color: var(--link-hover-effect-color);
+}
+
+.free-shipping-head {
+    margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.free-shipping-link-form {
+    margin-bottom: 4px;
+}
+
+.delevary-day-head {
+    margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.delevary-day-link {
+    text-decoration: none;
+    color: black;
+}
+
+.delevary-day-link:hover {
+    color: var(--link-hover-effect-color);
+}
+
+.gender-head {
+    margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.gender-link {
+    text-decoration: none;
+    color: black;
+}
+
+.gender-link:hover {
+    color: var(--link-hover-effect-color);
+}
 
 .aside-category {
     width: 90px;
@@ -1161,7 +1235,7 @@ select {
 }
 
 .aside-nav {
-    width: 180px;
+    width: 255px;
     margin-left: -26px;
     margin-top: -9px;
 
@@ -1184,10 +1258,8 @@ select {
     margin-left: 11px;
 }
 
-.aside-list-womens {
-    list-style-type: none;
-    margin-bottom: 4px;
-    margin-left: 11px;
+.aside-list-mens:hover {
+    color: var(--link-hover-effect-color);
 }
 
 .aside-links {
@@ -1196,6 +1268,101 @@ select {
     font-size: 14px;
     font-family: 'Amazon Ember';
 
+}
+
+.aside-links:hover {
+    color: var(--link-hover-effect-color);
+}
+.aside-custumer-reviews-container{
+    margin-left: 15px;
+}
+.aside-custumer-reviews-container-valuation{
+    width: 96px;
+    height: 20px;
+    background-image: url(images/fourstars.png);
+    background-position: -21px -484px;
+}
+.aside-custumer-reviews-container-head{
+     margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+.aside-custumer-reviews-container-valuation-span{
+    margin-left: 100px;
+    font-weight: 200;
+}
+.aside-custumer-reviews-container-valuation:hover{
+    color: var(--link-hover-effect-color);
+}
+.aside-brands-container{
+    margin-left: 15px;
+}
+.aside-brands-head{
+     margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+.aside-brands-link{
+     text-decoration: none;
+    color: black;
+}
+.aside-brands-link:hover{
+ color: var(--link-hover-effect-color);
+}
+.aside-brand-see-more-container{
+    width: 99px;
+    height: 40px;
+    margin-top: 5px;
+}
+.aside-brand-see-more{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 20px;
+    background-image: url(images/asidemore.png);
+    background-position: -1px -55px;
+}
+.aside-brand-see-more-span{
+    margin-left: -14px;
+    color: #022a5c;
+}
+.price-limit-container-head{
+    font-size: 15px;
+    list-style: 160%;
+}
+.price-limit-container{
+    display: block;
+    width: 250px;
+    height: 100px;
+    margin-left: 15px;
+}
+.price-limit-container-circle{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: -6px;
+    border-radius: 50%;
+    border: 7px solid  #2162a1;
+    vertical-align: middle;
+    box-shadow: 0 0 0 5px rgba(33, 98, 161, 0.1);
+}
+.price-limit-container-strate{
+    display: inline-block;
+    width: 200px;
+    height: 4px;
+    background-color:  #2162a1;
+    border-radius: 8px;
+}
+.price-limit-container-circle-links{
+    margin-top: 20px;
+}
+.price-limit-container-circle-link{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.price-limit-container-circle-link:hover{
+    color: var(--link-hover-effect-color);
 }
 
 .product {
@@ -3029,85 +3196,99 @@ select {
     margin-left: 12px;
     margin-right: 12px;
 }
-.amazon-footer-service{
-    display:block;
-    width:100%;
+
+.amazon-footer-service {
+    display: block;
+    width: 100%;
     height: 300px;
     background-color: #232f3e;
     border-top: 0.1px solid rgb(87, 85, 85);
 }
-.amazon-footer-service-container{
-    display:block;
+
+.amazon-footer-service-container {
+    display: block;
     width: 100%;
     height: 100px;
 }
-.amazon-footer-service-list{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
+
+.amazon-footer-service-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 134px;
     margin-right: 363px;
 }
-.amazon-footer-service-list-item{
-    list-style-type:none;
+
+.amazon-footer-service-list-item {
+    list-style-type: none;
     line-height: 1;
 }
-.amazon-footer-service-list-item:hover{
-    text-decoration:underline white;
+
+.amazon-footer-service-list-item:hover {
+    text-decoration: underline white;
 }
-.amazon-footer-service-list-link{
-    text-decoration:none;
-    color:white;
-    font-size:14px;
-    font-family:"Amazon Ember";
+
+.amazon-footer-service-list-link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Amazon Ember";
 }
-.amazon-footer-service-list-link-span{
+
+.amazon-footer-service-list-link-span {
     color: #ddddd1;
     font-family: "Amazon Ember";
     font-weight: 200;
 }
-.amazon-footer-condition{
-    display:block;
-    width:100%;
+
+.amazon-footer-condition {
+    display: block;
+    width: 100%;
     height: 100px;
     background-color: #232f3e;
     line-height: 0;
     margin-top: 54px;
 }
-.amazon-footer-condition-container{
+
+.amazon-footer-condition-container {
     display: block;
     width: 700px;
     height: 100px;
     margin-left: 592px;
 }
-.amazon-footer-condition-list{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
+
+.amazon-footer-condition-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     line-height: 1;
     margin-left: -80px;
     margin-right: 340px;
     font-size: 12px;
-    
-    
+
+
 }
-.amazon-footer-condition-list-item{
-    list-style-type:none;
+
+.amazon-footer-condition-list-item {
+    list-style-type: none;
     line-height: 1;
     font-size: 12;
 }
-.amazon-footer-condition-list-item:hover{
-    text-decoration:underline white;
+
+.amazon-footer-condition-list-item:hover {
+    text-decoration: underline white;
 }
-.amazon-footer-condition-list-link{
-    text-decoration:none;
-    color:white;
-    font-size:12px;
-    font-family:"Amazon Ember";
+
+.amazon-footer-condition-list-link {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: "Amazon Ember";
 
 }
-.copyright{
+
+.copyright {
     color: white;
 }
