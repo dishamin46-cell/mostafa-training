@@ -2474,7 +2474,7 @@ select {
 
 .aladl-tec-total-discount {
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .aladl-tec-discount-persntage {
@@ -2569,6 +2569,7 @@ select {
 
 .towel-discount-nomber {
     font-size: 24px;
+    font-weight: 400;
 }
 
 .towel-discount-data:hover {
@@ -2654,6 +2655,7 @@ select {
 
 .kindel-discount-nomber {
     font-size: 28px;
+    font-weight: 400;
 }
 
 .kindel-tablet-discount-nomber {
@@ -2734,6 +2736,7 @@ select {
 .blender-cup-price-nomber {
     color: #111111;
     font-size: 28px;
+    font-weight: 400;
 }
 
 .blender-cup-price {
@@ -2837,6 +2840,7 @@ select {
 
 .food-price-nomber {
     font-size: 28px;
+    font-weight: 400;
 }
 
 .food-discount-presentage {
@@ -2943,6 +2947,8 @@ select {
 
 .hand-mixer-discount-nomber {
     font-size: 24px;
+    font-weight: 400;
+
 }
 
 .hand-mixer-free-delevary {
@@ -2988,6 +2994,7 @@ select {
 
 .salon-chair-discount-nomber {
     font-size: 24px;
+    font-weight: 400;
 }
 
 .salon-chair-discount-presentage {
@@ -3235,6 +3242,7 @@ select {
 
 .wifi-jack-discount-nomber {
     font-size: 28px;
+    font-weight: 400;
 }
 
 .staudy-disk-data-head {
@@ -3265,6 +3273,7 @@ select {
 
 .study-disk-discount-nomber {
     font-size: 28px;
+    font-weight: 400;
 }
 
 .study-disk-earphone-cart {
