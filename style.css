@@ -12,30 +12,25 @@
     --drobdown-side-button: #a7acb2;
 }
 
-/* @font-face {
+/*@font-face {
     font-family: 'Amazon Ember';
-    font-weight: 200;
-    src: url(./gggggggggggggggggggggggg.ttf);
-} */
+    font-weight: 700;
+    src: url(/fonts/KFPk-9IF4FqAqY-.woff2) format(woff2);
+}*/
+/*@font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 500;
+    src: url(/fonts/VjTR4RqBzY0mUYx.woff2) format(woff2);
+}*/
 @font-face {
     font-family: 'Amazon Ember';
     font-weight: 200;
-    src: url(./Dv1WQ5DdeMS5qP7.woff2) format("woff2"), url(./e0LnMbFWJC-TMQz.woff) format("woff");
-}
-
-/*@font-face {
-    font-family: 'Amazon Ember';
-    font-weight: 400;
-    src: url(amazonember400.woff2) format("woff2"), url(amazonember400.woff2) format("woff");
-}
-*/
-* {
-    font-family: "Amazon Ember";
+    src: url(Dv1WQ5DdeMS5qP7.woff2) format("woff2"), url(./e0LnMbFWJC-TMQz.woff) format("woff");
 }
 
 body {
     margin: 0;
-    font-family: "Amazon Ember";
+    font-family: 'Amazon Ember';
 }
 
 .main-nav {
@@ -249,7 +244,7 @@ body {
     margin-top: 0.687rem;
     margin-left: 0.562rem;
     font-weight: 600;
-    ont-family: 'Amazon Ember';
+    font-family: 'Amazon Ember';
 }
 
 .searchbox-sprite {
@@ -320,6 +315,10 @@ body {
     height: 100%;
     background-color: var(--overlay-background-color);
     z-index: 999;
+}
+
+.dropdown-overlay {
+    pointer-events: none;
 }
 
 .favourite-lang-drobdown::before {
@@ -552,6 +551,10 @@ input[type="radio"] {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 999;
+}
+
+.signin-drobdown-overlay {
+    pointer-events: none;
 }
 
 .signin:hover .signin-drobdown-overlay {
@@ -940,6 +943,11 @@ input[type="radio"] {
     display: block;
 }
 
+.prime-drobdown-overlay {
+    pointer-events: none;
+}
+
+
 .prime-drobdown-header {
     display: block;
     margin-top: 20px;
@@ -987,6 +995,7 @@ input[type="radio"] {
 
 .prime-link {
     color: black;
+    text-decoration: none;
 }
 
 .prime-logo {
@@ -1133,8 +1142,14 @@ select {
 }
 
 .aside-product-checkboxes-fullfilled-head {
-    display: inline;
+    display: block;
     margin-left: 5px;
+    font-family: "Amazon Ember";
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 9px;
+
 }
 
 .aside-product-checkboxes-fullfilled {
@@ -1160,9 +1175,17 @@ select {
     opacity: 0;
 }
 
-.aside-product-checkboxes-fullfilled-form-span {
+.aside-product-checkboxes-fullfilled-form-link {
+    text-decoration: none;
+    color: black;
     font-size: 14px;
     margin-left: -14px;
+    font-family: "Amazon Ember";
+    font-weight: 400;
+}
+
+.aside-product-checkboxes-fullfilled-form-link:hover {
+    color: var(--link-hover-effect-color);
 }
 
 .checkbox {
@@ -1173,6 +1196,7 @@ select {
     border-radius: 2px;
     vertical-align: middle;
 }
+
 .checkbox:hover {
     border: 3px solid rgb(14, 148, 137);
 }
@@ -1221,6 +1245,9 @@ select {
 .gender-link {
     text-decoration: none;
     color: black;
+    font-family: "Amazon Ember";
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .gender-link:hover {
@@ -1273,48 +1300,59 @@ select {
 .aside-links:hover {
     color: var(--link-hover-effect-color);
 }
-.aside-custumer-reviews-container{
+
+.aside-custumer-reviews-container {
     margin-left: 15px;
 }
-.aside-custumer-reviews-container-valuation{
+
+.aside-custumer-reviews-container-valuation {
     width: 96px;
     height: 20px;
     background-image: url(images/fourstars.png);
     background-position: -21px -484px;
 }
-.aside-custumer-reviews-container-head{
-     margin: 0px;
+
+.aside-custumer-reviews-container-head {
+    margin: 0px;
     margin-top: 14px;
     margin-bottom: 8px;
 }
-.aside-custumer-reviews-container-valuation-span{
+
+.aside-custumer-reviews-container-valuation-span {
     margin-left: 100px;
     font-weight: 200;
 }
-.aside-custumer-reviews-container-valuation:hover{
+
+.aside-custumer-reviews-container-valuation:hover {
     color: var(--link-hover-effect-color);
 }
-.aside-brands-container{
+
+.aside-brands-container {
     margin-left: 15px;
 }
-.aside-brands-head{
-     margin: 0px;
+
+.aside-brands-head {
+    margin: 0px;
     margin-top: 14px;
     margin-bottom: 8px;
 }
-.aside-brands-link{
-     text-decoration: none;
+
+.aside-brands-link {
+    text-decoration: none;
     color: black;
 }
-.aside-brands-link:hover{
- color: var(--link-hover-effect-color);
+
+.aside-brands-link:hover {
+    color: var(--link-hover-effect-color);
 }
-.aside-brand-see-more-container{
+
+.aside-brand-see-more-container {
     width: 99px;
     height: 40px;
     margin-top: 5px;
 }
-.aside-brand-see-more{
+
+.aside-brand-see-more {
     display: inline-block;
     vertical-align: middle;
     width: 30px;
@@ -1322,92 +1360,112 @@ select {
     background-image: url(images/asidemore.png);
     background-position: -1px -55px;
 }
-.aside-brand-see-more-span{
+
+.aside-brand-see-more-span {
     margin-left: -14px;
     color: #022a5c;
 }
-.price-limit-container-head{
+
+.price-limit-container-head {
     font-size: 15px;
     line-height: 2;
 }
-.price-limit-container{
+
+.price-limit-container {
     display: block;
     width: 250px;
     height: 290px;
     margin-left: 15px;
 }
-.price-limit-container-circle{
+
+.price-limit-container-circle {
     display: inline-block;
     width: 12px;
     height: 12px;
     margin: -6px;
     border-radius: 50%;
-    border: 7px solid  #2162a1;
+    border: 7px solid #2162a1;
     vertical-align: middle;
     box-shadow: 0 0 0 5px rgba(33, 98, 161, 0.1);
 }
-.price-limit-container-strate{
+
+.price-limit-container-strate {
     display: inline-block;
     width: 200px;
     height: 4px;
-    background-color:  #2162a1;
+    background-color: #2162a1;
     border-radius: 8px;
 }
-.price-limit-container-circle-links{
+
+.price-limit-container-circle-links {
     margin-top: 20px;
 }
-.price-limit-container-circle-link{
+
+.price-limit-container-circle-link {
     color: black;
     text-decoration: none;
     font-size: 15px;
 }
-.price-limit-container-circle-link:hover{
+
+.price-limit-container-circle-link:hover {
     color: var(--link-hover-effect-color);
 }
-.price-limit-container-deals-head{
+
+.price-limit-container-deals-head {
     font-size: 15px;
     line-height: 0;
 }
-.price-limit-container-discount-link{
+
+.price-limit-container-discount-link {
     text-decoration: none;
     color: black;
 }
-.price-limit-container-discount-link:hover{
+
+.price-limit-container-discount-link:hover {
     color: var(--link-hover-effect-color);
 }
-.price-limit-container-buy-link{
+
+.price-limit-container-buy-link {
     text-decoration: none;
     color: black;
 }
-.price-limit-container-buy-link:hover{
+
+.price-limit-container-buy-link:hover {
     color: var(--link-hover-effect-color);
 }
-.price-limit-container-copons-link{
+
+.price-limit-container-copons-link {
     text-decoration: none;
     color: black;
 }
-.price-limit-container-copons-link:hover{
+
+.price-limit-container-copons-link:hover {
     color: var(--link-hover-effect-color);
 }
-.price-limit-container-deal-link{
-     text-decoration: none;
+
+.price-limit-container-deal-link {
+    text-decoration: none;
     color: black;
 }
-.price-limit-container-deal-link:hover{
+
+.price-limit-container-deal-link:hover {
     color: var(--link-hover-effect-color);
 }
-.international-size-container{
+
+.international-size-container {
     width: 250px;
     height: 129px;
     line-height: 2;
     margin-left: 15px;
 }
-.international-size-container-head{
+
+.international-size-container-head {
     line-height: 0;
     margin-top: 26px;
     margin-bottom: 14px;
 }
-.international-size-container-data{
+
+.international-size-container-data {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -1416,48 +1474,59 @@ select {
     border: 0.3px solid black;
     border-radius: 8px;
 }
-.international-size-container-data:hover{
+
+.international-size-container-data:hover {
     background-color: #d5e7e7;
     border: 1px solid #037e7e;
 }
-.international-size-container-link{
+
+.international-size-container-link {
     text-decoration: none;
     color: black;
-    
+
 }
-.international-size-container-link:hover{
+
+.international-size-container-link:hover {
     color: var(--link-hover-effect-color);
 }
-.aside-condition{
+
+.aside-condition {
     width: 245px;
     height: 65px;
     margin-left: 15px;
 }
-.aside-condition-head{
+
+.aside-condition-head {
     font-size: 14px;
-     line-height: 0;
+    line-height: 0;
     margin-top: 10px;
     margin-bottom: 14px;
 }
-.aside-new-link{
-     text-decoration: none;
+
+.aside-new-link {
+    text-decoration: none;
     color: black;
 }
-.aside-new-link:hover{
+
+.aside-new-link:hover {
     color: var(--link-hover-effect-color);
 }
-.aside-used-link{
-     text-decoration: none;
+
+.aside-used-link {
+    text-decoration: none;
     color: black;
 }
-.aside-used-link:hover{
+
+.aside-used-link:hover {
     color: var(--link-hover-effect-color);
 }
-.aside-standard-color-head{
+
+.aside-standard-color-head {
     line-height: 0;
     margin-bottom: 14px;
 }
-.aside-standard-color-type{
+
+.aside-standard-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1465,7 +1534,8 @@ select {
     background-position: 0px 0px;
     position: relative;
 }
-.aside-standard-color-type:hover::after{
+
+.aside-standard-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1474,7 +1544,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-blue-color-type{
+
+.aside-standard-blue-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1482,7 +1553,8 @@ select {
     background-position: -1100px 0px;
     position: relative;
 }
-.aside-standard-blue-color-type:hover::after{
+
+.aside-standard-blue-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1491,7 +1563,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-gray-color-type{
+
+.aside-standard-gray-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1499,7 +1572,8 @@ select {
     background-position: -100px 0px;
     position: relative;
 }
-.aside-standard-gray-color-type:hover::after{
+
+.aside-standard-gray-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1508,7 +1582,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-multi-color-type{
+
+.aside-standard-multi-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1516,7 +1591,8 @@ select {
     background-position: -1500px 0px;
     position: relative;
 }
-.aside-standard-multi-color-type:hover::after{
+
+.aside-standard-multi-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1525,7 +1601,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-white-color-type{
+
+.aside-standard-white-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1533,7 +1610,8 @@ select {
     background-position: -200px 0px;
     position: relative;
 }
-.aside-standard-white-color-type:hover::after{
+
+.aside-standard-white-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1542,7 +1620,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-brown-color-type{
+
+.aside-standard-brown-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1550,7 +1629,8 @@ select {
     background-position: -300px 0px;
     position: relative;
 }
-.aside-standard-brown-color-type:hover::after{
+
+.aside-standard-brown-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1559,7 +1639,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-beige-color-type{
+
+.aside-standard-beige-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1567,7 +1648,8 @@ select {
     background-position: -400px 0px;
     position: relative;
 }
-.aside-standard-beige-color-type:hover::after{
+
+.aside-standard-beige-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1576,7 +1658,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-red-color-type{
+
+.aside-standard-red-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1584,7 +1667,8 @@ select {
     background-position: -500px 0px;
     position: relative;
 }
-.aside-standard-red-color-type:hover::after{
+
+.aside-standard-red-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1593,7 +1677,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-pink-color-type{
+
+.aside-standard-pink-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1601,7 +1686,8 @@ select {
     background-position: -600px 0px;
     position: relative;
 }
-.aside-standard-pink-color-type:hover::after{
+
+.aside-standard-pink-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1610,7 +1696,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-orange-color-type{
+
+.aside-standard-orange-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1618,7 +1705,8 @@ select {
     background-position: -700px 0px;
     position: relative;
 }
-.aside-standard-orange-color-type:hover::after{
+
+.aside-standard-orange-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1627,7 +1715,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-yellow-color-type{
+
+.aside-standard-yellow-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1635,7 +1724,8 @@ select {
     background-position: -800px 0px;
     position: relative;
 }
-.aside-standard-yellow-color-type:hover::after{
+
+.aside-standard-yellow-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1644,7 +1734,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-ivory-color-type{
+
+.aside-standard-ivory-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1652,7 +1743,8 @@ select {
     background-position: -900px 0px;
     position: relative;
 }
-.aside-standard-ivory-color-type:hover::after{
+
+.aside-standard-ivory-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1661,7 +1753,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-green-color-type{
+
+.aside-standard-green-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1669,7 +1762,8 @@ select {
     background-position: -1000px 0px;
     position: relative;
 }
-.aside-standard-green-color-type:hover::after{
+
+.aside-standard-green-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1678,7 +1772,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-trqouise-color-type{
+
+.aside-standard-trqouise-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1686,7 +1781,8 @@ select {
     background-position: -3000px 0px;
     position: relative;
 }
-.aside-standard-trqouise-color-type:hover::after{
+
+.aside-standard-trqouise-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1695,7 +1791,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-purple-color-type{
+
+.aside-standard-purple-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1703,7 +1800,8 @@ select {
     background-position: -1200px 0px;
     position: relative;
 }
-.aside-standard-purple-color-type:hover::after{
+
+.aside-standard-purple-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1712,7 +1810,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-gold-color-type{
+
+.aside-standard-gold-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1720,7 +1819,8 @@ select {
     background-position: -1300px 0px;
     position: relative;
 }
-.aside-standard-gold-color-type:hover::after{
+
+.aside-standard-gold-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1729,7 +1829,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-silver-color-type{
+
+.aside-standard-silver-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1737,7 +1838,8 @@ select {
     background-position: -1400px 0px;
     position: relative;
 }
-.aside-standard-silver-color-type:hover::after{
+
+.aside-standard-silver-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1746,7 +1848,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-clear-color-type{
+
+.aside-standard-clear-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1754,7 +1857,8 @@ select {
     background-position: -1600px 0px;
     position: relative;
 }
-.aside-standard-clear-color-type:hover::after{
+
+.aside-standard-clear-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1763,7 +1867,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-stanlessteel-color-type{
+
+.aside-standard-stanlessteel-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1771,7 +1876,8 @@ select {
     background-position: -1700px 0px;
     position: relative;
 }
-.aside-standard-stanlessteel-color-type:hover::after{
+
+.aside-standard-stanlessteel-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1780,7 +1886,8 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-lightblue-color-type{
+
+.aside-standard-lightblue-color-type {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -1788,7 +1895,8 @@ select {
     background-position: -1800px 0px;
     position: relative;
 }
-.aside-standard-lidhtblue-color-type:hover::after{
+
+.aside-standard-lidhtblue-color-type:hover::after {
     content: "✔";
     position: absolute;
     top: 30%;
@@ -1797,76 +1905,102 @@ select {
     font-size: 14px;
 
 }
-.aside-standard-color-container{
+
+.aside-standard-color-container {
     margin-left: 15px;
 }
-.aside-aviliability-container{
+
+.aside-aviliability-container {
     margin-left: 15px;
 }
-.aside-aviliability-container{
+
+.aside-aviliability-container {
     line-height: 0;
     margin-top: 20px;
     margin-left: 7px;
 }
-.aside-aviliability-link{
+
+.aside-aviliability-link {
     text-decoration: none;
     color: black;
 }
-.aside-aviliability-link:hover{
+
+.aside-aviliability-link:hover {
     color: var(--link-hover-effect-color);
 }
-.aside-New-Arrivals{
+
+.aside-New-Arrivals {
     margin-left: 15px;
 }
-.aside-New-Arrivals-head{
+
+.aside-New-Arrivals-head {
     line-height: 0;
     font-size: 15px;
 }
-.aside-New-Arrivals-link{
-     text-decoration: none;
-    color: black;
-}
-.aside-New-Arrivals-link:hover{
-color: var(--link-hover-effect-color);
-}
-.aside-Apparel-Pattern-head{
-      margin: 0px;
-    margin-top: 14px;
-    margin-bottom: 8px;
-}
-.aside-Apparel-Pattern-link{
+
+.aside-New-Arrivals-link {
     text-decoration: none;
     color: black;
 }
-.aside-Apparel-Pattern-link:hover{
+
+.aside-New-Arrivals-link:hover {
     color: var(--link-hover-effect-color);
 }
-.aside-seller{
-    margin-left: 15px;
-}
-.aside-seller-head{
-    font-size: 15px;
-      margin: 0px;
-    margin-top: 14px;
-    margin-bottom: 8px;
-}
-.aside-seller-link{
-     text-decoration: none;
-    color: black;
-}
-.aside-seller-link:hover{
-    color: var(--link-hover-effect-color);
-}
-.aside-clothing-material{
-    margin-left: 15px;
-}
-.aside-clothing-material-head{
-     font-size: 15px;
-      margin: 0px;
+
+.aside-Apparel-Pattern-head {
+    margin: 0px;
     margin-top: 14px;
     margin-bottom: 8px;
 }
 
+.aside-Apparel-Pattern-link {
+    text-decoration: none;
+    color: black;
+}
+
+.aside-Apparel-Pattern-link:hover {
+    color: var(--link-hover-effect-color);
+}
+
+.aside-seller {
+    margin-left: 15px;
+}
+
+.aside-seller-head {
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.aside-seller-link {
+    text-decoration: none;
+    color: black;
+}
+
+.aside-seller-link:hover {
+    color: var(--link-hover-effect-color);
+}
+
+.aside-clothing-material {
+    margin-left: 15px;
+}
+
+.aside-clothing-material-head {
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.aside-clothing-link {
+    text-decoration: none;
+    color: black;
+}
+
+.aside-clothing-link:hover {
+    color: var(--link-hover-effect-color);
+}
 
 
 
@@ -3378,7 +3512,7 @@ color: var(--link-hover-effect-color);
     font-size: 14px;
     width: 20px;
     height: 10px;
-    margit-left: -6px;
+    margin-left: -6px;
     color: gray;
 }
 
