@@ -1159,6 +1159,9 @@ select {
 .aside-product-checkboxes-fullfilled-form {
     display: inline-block;
 }
+.aside-product-checkboxes-fullfilled-span{
+    margin-left: -15px;
+}
 
 .aside-product-checkboxes-fullfilled-arrow {
     display: inline-block;
@@ -1166,6 +1169,7 @@ select {
     height: 12px;
     background-image: url(images/asidearrow.png);
     background-position: -222px -169px;
+    margin-left: 2px;
 }
 
 .aside-product-checkboxes-fullfilled-mirror {
@@ -1182,6 +1186,7 @@ select {
     margin-left: -14px;
     font-family: "Amazon Ember";
     font-weight: 400;
+    margin-left: 2px;
 }
 
 .aside-product-checkboxes-fullfilled-form-link:hover {
@@ -1205,6 +1210,7 @@ select {
 .free-shipping-link {
     text-decoration: none;
     color: black;
+    font-size: 14px;
 }
 
 .free-shipping-link:hover {
@@ -3620,6 +3626,7 @@ select {
     width: 260px;
     height: 250px;
     text-align: left;
+    margin-top: 45px;
 }
 
 .contact-container-links-head {
@@ -3628,13 +3635,14 @@ select {
     font-size: 16px;
     font-family: "Amazon Ember";
     font-weight: 600;
-    margin-top: 40px;
+    margin: 0;
 
 }
 
 .contact-container-links-list {
     list-style-type: none;
     margin-left: -42px;
+    margin-top: 6px;
 }
 
 .contact-container-links-list-link {
@@ -3657,6 +3665,7 @@ select {
     width: 260px;
     height: 250px;
     text-align: left;
+    margin-top: 45px;
 }
 
 .shop-with-us-container-links-head {
@@ -3665,12 +3674,13 @@ select {
     font-size: 16px;
     font-family: "Amazon Ember";
     font-weight: 600;
-    margin-top: 40px;
+    margin: 0;
 }
 
 .shop-with-us-container-links-list {
     list-style-type: none;
     margin-left: -42px;
+    margin-top: 6px;
 }
 
 .shop-with-us-container-links-list-link {
@@ -3693,6 +3703,7 @@ select {
     display: inline-block;
     width: 270px;
     height: 250px;
+    margin-top: 45px;
 }
 
 .make-money-with-us-container-links-head {
@@ -3701,12 +3712,13 @@ select {
     font-size: 16px;
     font-family: "Amazon Ember";
     font-weight: 600;
-    margin-top: 40px;
+    margin: 0;
 }
 
 .make-money-with-us-container-links-list {
     list-style-type: none;
     margin-left: -42px;
+    margin-top: 6px;
 }
 
 .make-money-with-us-container-links-list-link {
@@ -3730,6 +3742,7 @@ select {
     width: 350px;
     height: 250px;
     margin-left: 67px;
+    margin-top: 45px;
 }
 
 .let-us-help-you-container-links-head {
@@ -3738,12 +3751,13 @@ select {
     font-size: 16px;
     font-family: "Amazon Ember";
     font-weight: 600;
-    margin-top: 40px;
+    margin: 0;
 }
 
 .let-us-help-you-container-links-list {
     list-style-type: none;
     margin-left: -42px;
+    margin-top: 6px;
 }
 
 .let-us-help-you-container-links-list-link {
@@ -3765,7 +3779,7 @@ select {
 .amazon-footer {
     display: block;
     width: 100%;
-    height: 100px;
+    height: 116px;
     background-color: #232f3e;
     border-top: 0.1px solid rgb(87, 85, 85);
 }
@@ -3849,14 +3863,15 @@ select {
     display: block;
     width: 100%;
     height: 300px;
-    background-color: #232f3e;
-    border-top: 0.1px solid rgb(87, 85, 85);
+    background-color: #131a22;
+    margin-top: -16px;
 }
 
 .amazon-footer-service-container {
-    display: block;
+    display: inline-block;
     width: 100%;
-    height: 100px;
+    height: 114px;
+    margin-top: 16px;
 }
 
 .amazon-footer-service-list {
@@ -3894,7 +3909,7 @@ select {
     display: block;
     width: 100%;
     height: 100px;
-    background-color: #232f3e;
+    background-color: #131a22;
     line-height: 0;
     margin-top: 54px;
 }
