@@ -203,34 +203,10 @@ input::placeholder {
 .mobile-header-location-icon {
     margin-left: 8px;
 }
-
-@media (max-width: 768px) {
-    .mobile-header {
-        display: block;
-        width: 100%;
-    }
-
-    .mobile-header-logo {
-        width: 48%;
-    }
-
-    .mobile-header-sigin {
-        width: 48%;
-    }
-
-    .search-box-form {
-        width: 100%;
-        margin-left: 17px;
-    }
-
-    .mobile-header-searchbox-input {
-        width: 100%;
-    }
-
-    .mobile-header-searchbox-button {
-        margin-left: 90%;
-    }
+.mobile-proudct-paragraph{
+    display: none;
 }
+
 
 .main-nav {
     height: 3.75rem;
@@ -1317,7 +1293,7 @@ select {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 2500px;
+    height: 4500px;
 }
 
 .aside {
@@ -2244,7 +2220,7 @@ select {
 }
 
 .product-grid-container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 562.59px);
     grid-template-areas: "main main main main"
@@ -2258,8 +2234,6 @@ select {
 
 .printer-imag {
     display: block;
-    width: 244px;
-    height: 179px;
     margin-left: 17px;
     margin-top: 18px;
     background-color: #f7f7f7;
@@ -2435,8 +2409,6 @@ select {
 
 .printer-cart-link-container {
     display: flex;
-    width: 240px;
-    height: 31px;
     justify-content: center;
     align-items: center;
 }
@@ -4161,13 +4133,118 @@ select {
     margin-left: 40px;
 
 }
-
-@media (max-width: 768px) {
-    .secend-nav {
-        display: none;
+.mobile-maxcomfort-description{
+    display: none;
+}
+@media (max-width: 1024px) {
+    .mobile-header {
+        display: block;
+        width: 100vw;
+    }
+    .product-grid-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .products-container{
+        height: 4000px;
+    }
+    .printer,.comfort{
+        display: flex;
+        flex-direction: row;
+         
+    }
+    .printer-imag-photo ,.comfort-img{
+        width: 100px;
+        height: 73px;
+    }
+    .printer-data-link{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 100%;
+    }
+    .comfort-description{
+        font-size: 10px;
+    }
+    .printer-discount{
+        font-size: 13px;
+        line-height: 110%;
+        letter-spacing: -1px;
+    }
+    .printer-cart{
+        margin-top: -95px;
+        width: 140px;
+    }
+    body{
+        margin: 0px;
     }
 
-    .main-nav {
+
+    .mobile-header-logo {
+        width: 48%;
+    }
+
+    .mobile-header-sigin {
+        width: 48%;
+    }
+
+    .search-box-form {
+        width: 100%;
+        margin-left: 17px;
+    }
+
+    .mobile-header-searchbox-input {
+        width: 100%;
+    }
+
+    .mobile-header-searchbox-button {
+        margin-left: 90%;
+    }
+    .main-nav{
         display: none;
+    }
+    .mobile-proudct-paragraph{
+        display: inline;
+        font-size: 13px;
+        color: #343533;
+    }
+    .proudct-paragraph{
+        display: none;
+    }
+    .results{
+        display: none;
+    }
+    .secend-nav{
+        display: none;
+    }
+    .mobile-maxcomfort-description{
+        display: inline;
+        font-size: 14px;
+    }
+    .comfort-description-link{
+        display: none;
+    }
+    .comfort-description{
+        width: 138px;
+        margin-left: 40px;
+    }
+    .sponsored{
+        display: none;
+    }
+    .max-comfort{
+        margin-left: 37px;
+    }
+    .comfort-img{
+        margin-top: 69px;
+    }
+    .comfort-cart{
+        margin-top: 145px;
+        width: 140px;
+        margin-left: -143px;
+        margin-top: 165px;
+    }
+    .comfort-cart-link-container{
+        margin-left: -60px;
     }
 }
